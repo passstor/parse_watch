@@ -1,0 +1,25 @@
+1653658840419	geckodriver	INFO	Listening on 127.0.0.1:53928
+1653658840937	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\PC\\AppData\\Local\\Temp\\rust_mozprofilePUXkR5"
+1653658841415	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\PC\\AppData\\Local\\Temp\\rust_mozprofilePUXkR5\\search.json.mozlz4", (void 0)))
+1653658843759	Marionette	INFO	Listening on port 53948
+Read port: 53948
+1653658843937	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1653658846142	Marionette	INFO	Stopped listening on port 53948
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1105: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\PC\AppData\Local\Temp\rust_mozprofilePUXkR5\protections.sqlite
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+1653658861812	geckodriver	INFO	Listening on 127.0.0.1:54009
+1653658862349	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\PC\\AppData\\Local\\Temp\\rust_mozprofile4jk4iQ"
+1653658862827	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\PC\\AppData\\Local\\Temp\\rust_mozprofile4jk4iQ\\search.json.mozlz4", (void 0)))
+1653658864982	Marionette	INFO	Listening on port 54030
+Read port: 54030
+1653658865123	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1653658867759	Marionette	INFO	Stopped listening on port 54030
+JavaScript error: resource://gre/modules/UrlClassifierListManager.jsm, line 691: TypeError: this.tablesData[table] is undefined
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1105: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\PC\AppData\Local\Temp\rust_mozprofile4jk4iQ\protections.sqlite
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
